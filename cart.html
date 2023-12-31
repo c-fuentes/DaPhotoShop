@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Da Photo Shop Cart</title>
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/StyleSheet1.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
+    <script src="script.js"></script>
+</head>
+<body id="color">
+    <section class="container-fluid">
+        <article class="row">
+            <div class="col">
+                <nav>
+                    <li id="logo-box"><a href="index.html" class="cart-logo"><img src="images/logo.png" class="animated jello delay-1s logo" /></a></li>
+                    <li class="left-side centering position"><a href="index.html" class="none">Home</a></li>
+                    <li class="left-side position"><a href="index.html#product" class="none">Products</a></li>
+                    <li class="position"><a href="index.html#review" class="none">Reviews</a></li>
+                    <li class="right-side position"><a href="index.html#about" class="none">About Us</a></li>
+                    <li class="right-side position"><a href="index.html#location" class="none">Location</a></li>
+                    <li class="right-side position"><a href="cart.html" class="none"><img src="images/cart.png" /></a></li>
+                </nav>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid">
+        <article class="row">
+            <div class="popup col" onclick="myFunction()">
+                <img id="box-position" src="images/chat-box.png" />
+                <span class="popuptext" id="myPopup" style="position: fixed; top: 92%; right: 2%;">Hello</span>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid">
+        <article class="row">
+            <div class="col" style="background-color: black; height: 154px; width: 40px; position: fixed; top: 0%; z-index: 9998;">
+
+            </div>
+        </article>
+    </section>
+
+    <section class="container" id="cart-page" style="position: absolute; left: 20%; top: 30%; z-index: 9998;">
+        <article class="row">
+            <div class="col col-md-8" style="background-color: #474545; height: 500px;">
+                <h2>Your Items</h2>
+                <p id="cart"></p>
+                <p id="output"></p>
+            </div>
+            <div class="col col-md-4" style="background-color: #2e2c2c;">
+                <h2>Total </h2>
+                <p>Subtotal: </p>
+                <p>Shipping: </p>
+                <p>Order Total:</p>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid">
+        <article class="row">
+            <div class="col" id="move">
+                <video width="1900" muted autoplay loop style="z-index: 9997;">
+                    <source src="images/nighttime.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

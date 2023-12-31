@@ -1,0 +1,251 @@
+﻿<html>
+<head>
+    <title>Da Photo Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/StyleSheet1.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/shopify-cartjs/0.4.3/cart.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body id="color">
+    <section class="container-fluid">
+        <article class="row">
+            <div class=" col img-banner">
+                <nav id="main-menu">
+                    <li id="logo-box"><a href="index.html" class="cart-logo"><img src="images/logo.png" class="animated jello delay-1s logo" style="z-index: 9999;" /></a></li>
+                    <li class="left-side centering position"><a href="index.html" class="none">Home</a></li>
+                    <li class="left-side position"><a href="#product" class="none">Products</a></li>
+                    <li class="position"><a href="#review" class="none">Reviews</a></li>
+                    <li class="right-side position"><a href="#about" class="none">About Us</a></li>
+                    <li class="right-side position"><a href="#location" class="none">Location</a></li>
+                    <li class="right-side position"><a href="cart.html" class="none"><img src="images/cart.png" /></a></li>
+                </nav>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid" style="background-color: black; background-image: linear-gradient(black, darkred); padding-top: 20px;">
+        <article class="row">
+            <div class="col">
+                <h2 class="animated lightSpeedIn"><b>Feature Product</b></h2>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid" id="product" style="padding-bottom: 25px; background-color: #1a1a1a; background-image: linear-gradient(darkred, #610000);">
+        <article class="row">
+            <div class="col col-lg-5">
+                <img src="images/Bang Outside I hang Outside.png" style="position:relative; left: 15px;" />
+            </div>
+            <div class="col col-lg-7">
+                Get your limited edition DPS camera strap today for only $24.99! With the release of our own personal merch we will also hold a raffle for a free iPad.
+                To sign up for the raffle you must purchase any item in our store and fill the form down below.
+            </div>
+            <div class="col">
+                <hr style="background-color: black;" />
+            </div>
+        </article>
+    </section>
+
+    <!--
+        <section id="chatbox" class="container-fluid">
+            <article class="row">
+                <div class="popup col" onclick="myFunction()">
+                    <img id="box-position" src="images/chat-box.png" />
+                    <span class="popuptext" id="myPopup">CARTMAN: Hello people!</span>
+                </div>
+            </article>
+        </section>
+    -->
+
+
+
+    <section class="container-fluid">
+        <article class="row">
+            <div class="col" style="background-color: black; height: 154px; width: 40px; position: fixed; top: 0%; z-index: 9998;">
+
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid" style="background-color: black; background-image: linear-gradient(#610000, darkred);">
+        <article class="row">
+            <div class="col">
+                <h2 class="animated lightSpeedIn"><b>Our Products</b></h2>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid" style="background-color: black; background-image: linear-gradient(darkred, #610000);">
+        <article class="row">
+            <div class=" col col-md-4 container1">
+                <img class="image animated flash" src="images/light1.png" />
+                <div class="middle">
+                    <button class="text">add to cart</button>
+                </div>
+                <p>$329.99 NIKON Speedlight SB-5000</p>
+            </div>
+            <div class=" col col-md-4 container1">
+                <img class="image animated flash" src="images/camera.png" />
+                <div class="middle">
+                    <button class="text">add to cart</button>
+                </div>
+                <p>$799.99 Canon EOS 30D </p>
+            </div>
+            <div class="col col-md-4 container1">
+                <img class="image animated flash" src="images/SD Card.png" />
+                <div class="middle">
+                    <button class="text">add to cart</button>
+                </div>
+                <p>$14.99 Sandisk Ultra 48MBps 16GB</p>
+            </div>
+            <div class="col">
+                <hr style="background-color: black;" />
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid" id="review" style="background-color: black; background-image: linear-gradient(#610000, darkred);">
+        <article class="row">
+            <div class="col">
+                <h2 class="animated lightSpeedIn"><b>Reviews</b></h2>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid" style="background-color: black; background-image: linear-gradient(darkred, #610000);">
+        <article class="row">
+            <div class="col vid1">
+                <video width="990" height="540" muted autoplay loop id="about">
+                    <source src="images/videooo.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid" style="background-color: #610000;">
+        <artice class="row">
+            <div class="col">
+                <hr style="background-color: black;" />
+            </div>
+        </artice>
+    </section>
+
+    <section class="container-fluid" style="background-color: black; background-image: linear-gradient(#610000, darkred);">
+        <article class="row">
+            <div class="col">
+                <h2 class="animated lightSpeedIn"><b>Our Owners</b></h2>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid" style="background-color: black; background-image: linear-gradient(darkred, black);">
+        <article class="row bio-row">
+            <div class="col col-lg-3 text-center">
+                <img src="images/qui.jpg" class="shot" />
+                <p>Delivery Dude</p>
+                <h4>Qui</h4>
+            </div>
+            <div class="col col-lg-3 text-center">
+                <img src="images/damylin.jpg" class="shot" />
+                <p>Graphic Designer</p>
+                <h4>Damylin</h4>
+            </div>
+            <div class="col col-lg-3 text-center">
+                <img src="images/cannan.jpg" class="shot" />
+                <p>Product Manager</p>
+                <h4>Canaan</h4>
+            </div>
+            <div class="col col-lg-3 text-center">
+                <img src="images/celso.jpg" class="shot" />
+                <p>Manager</p>
+                <h4>Celso</h4>
+            </div>
+        </article>
+    </section>
+    <!--<section id="location">
+        <article class="row">
+            <div class="col-col-lg-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.6917393046556!2d-122.33927168412822!3d47.61268339555051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab4b175a341%3A0xfc8c956cd903a537!2sBartell%20Drugs!5e0!3m2!1sen!2sus!4v1567699783826!5m2!1sen!2sus" width="1920" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </article>
+    </section>-->
+    <footer class="footer container-fluid">
+        <article class="row">
+            <div class="col col-md-6 footer-info">
+                <h3 style="position: center;">Join Our iPad Raffle Sponsored by Mark Russell</h3>
+                <form id="form-id" class="form-class">
+                    <input required type="text" placeholder="Name" />
+                    <input required type="text" placeholder="Email" />
+                    <input required type="text" placeholder="Address" />
+                    <div>
+                        <button class="submit-button form" type="submit">
+                            Submit
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-md-6" id="location">
+                <div class="col-col-lg-12 grayscale">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.6917393046556!2d-122.33927168412822!3d47.61268339555051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab4b175a341%3A0xfc8c956cd903a537!2sBartell%20Drugs!5e0!3m2!1sen!2sus!4v1567699783826!5m2!1sen!2sus" width="936" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </article>
+    </footer>
+
+    <div id="chat-icon" class="chat-icon">
+        <i class="fa fa-envelope"></i>
+    </div>
+
+    <div id="chat-box">
+        <div class="gray">Mark: I was a complete and total Christian.</div>
+        <div class="lightgray">Some Guy: Amsterdam is a good city.</div>
+        <div class="darkgray">Mark: I like plants.</div>
+        <div class="grey">Some Guy: Amsterdam has alot of plants.</div>
+        <div class="chat-button">
+            <button class="btn btn-primary">
+                Send Message
+            </button>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!--
+<div class="col col-md-6 footer-info">
+    <h3 style="position: center;">Join Our iPad Raffle Sponsored by Mark Russell</h3>
+    <form id="form-id" class="form-class">
+        <div class="form">
+            <input required type="text" placeholder="Name" />
+        </div>
+        <div class="form">
+            <input required type="text" placeholder="Email" />
+        </div>
+        <div class="form">
+            <input required type="text" placeholder="Address" />
+        </div>
+        <button class="submit-button form" type="submit">
+            Submit
+        </button>
+    </form>
+</div>
+    -->
